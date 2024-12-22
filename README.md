@@ -59,3 +59,8 @@ This project is a personal portfolio website wrote in HTML, CSS and Bootstrap. I
   - Font Awesome
   - Bootstrap Icons
   - Remix Icon
+
+### *Wireframe and Mockup Link*
+
+- **Wireframe & Mockup Link**: [Here](https://www.figma.com/design/Sbjc12MzOOlgQkpGnhDxpy/Untitled?node-id=0-1&t=ryqjcxyEovFQAHvG-1)
+
