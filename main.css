@@ -1,0 +1,381 @@
+body {
+  min-height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --primarycolor: #ffd53b;
+  --secondcolor: #fff;
+  --thirdcolor: #000;
+  --fourthcolor: #45474b;
+  --fifthcolor: #f5f5f5;
+}
+/*Hero + NavBar Sec*/
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 100vh;
+  text-align: left;
+  background: url("./assets/heroSec.jpg") no-repeat center center/cover;
+  padding-right: 75px;
+}
+
+.home .title {
+  max-width: 800px;
+}
+.home span {
+  color: var(--primarycolor);
+}
+nav img {
+  max-width: 70px;
+  height: 70px;
+}
+.nav-item {
+  font-weight: bolder;
+}
+.navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(3px);
+}
+
+.navbar .nav-link {
+  color: var(--thirdcolor);
+}
+
+.navbar .nav-link:hover {
+  color: var(--primarycolor);
+}
+
+.btn {
+  background-color: var(--fourthcolor);
+  font-size: 18px; /* Adjust font size */
+  padding: 10px 20px; /* Adjust padding */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  color: var(--secondcolor); /* White text color */
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.2); /* Scale effect on hover */
+  background-color: var(--fourthcolor);
+  color: var(--secondcolor);
+}
+
+/*End Hero + NavBar Sec*/
+
+/* About Section */
+.abt {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--fifthcolor);
+}
+
+.abt img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me {
+  padding: 50px 0;
+}
+
+.about-me h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.about-me h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: var(--thirdcolor);
+  margin: 10px auto 0;
+}
+
+.about-me h1 span {
+  color: var(--primarycolor);
+}
+
+.about-me h1 {
+  color: var(--thirdcolor);
+}
+
+.about-me img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.about-me p {
+  font-size: 20px; /* Adjust the font size for readability */
+  line-height: 1.8; /* Add spacing between lines */
+  text-align: justify; /* Ensure the text is aligned on both sides */
+  font-weight: 500;
+}
+
+.botn {
+  font-size: 20px; /* Adjust font size */
+  padding: 10px 20px; /* Adjust padding */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none;
+  color: var(--thirdcolor);
+}
+
+/*End About Section*/
+
+/*Skills Section*/
+.container-four {
+  background: var(--secondcolor);
+  width: 100%;
+}
+
+.container-four h1 {
+  margin-top: 125px;
+}
+.title h1 span {
+  color: var(--primarycolor);
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  padding: 7px;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: var(--thirdcolor);
+  margin: 10px auto 0;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 80px;
+  font-size: 1.25em;
+  height: 60vh;
+}
+
+.skill-box {
+  padding: 16px;
+  color: var(--thirdcolor);
+}
+
+.skill-box:hover > .skill-name::after,
+.skill-box:hover > .skill-name::before {
+  width: 35px;
+}
+
+.skill-name::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 44%;
+  width: 0;
+  height: 4px;
+  background-color: var(--primarycolor);
+  transition: 1s;
+}
+
+.skill-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  position: relative;
+}
+
+.icons-one i {
+  font-size: 40px;
+  color: var(--primarycolor);
+}
+
+.skill-name h3 {
+  margin: 10px;
+}
+
+/*End Skills Section*/
+
+/*Footer*/
+footer {
+  margin-top: auto; /* This pushes the footer to the bottom */
+}
+.footer {
+  background-color: #cecece;
+  color: var(--thirdcolor);
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+/*End Footer*/
+
+/*Project Page*/
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projects-container h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+  margin-bottom: 30px;
+}
+.proj h1 span {
+  color: var(--primarycolor);
+}
+.projects .content {
+  margin-top: 30px;
+}
+.project-card {
+  padding: 15px;
+  background: linear-gradient(
+    135deg,
+    #f9f07a,
+    #c08b5c
+  ); /* Gradient between light and medium gray */
+  border: 1px solid #dcdcdc; /* Light border */
+  min-height: 14em;
+  width: 15em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.project-title {
+  text-transform: uppercase;
+  color: #263159; /* Dark gray for the title */
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+.project-card:hover .project-image {
+  opacity: 0.9;
+}
+.project-image img {
+  width: 100%;
+}
+.project-info {
+  padding: 1em;
+}
+
+.project-category {
+  font-size: 0.8em;
+  color: #bf3131;
+}
+
+@media (max-width: 768px) {
+  .projects .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Start Contact Info Styles */
+.containerr {
+  min-width: 100%;
+  min-height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.formSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: #faf6e3;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.formSection div h5 span {
+  color: var(--primarycolor);
+}
+.phone,
+.Email,
+.Location {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  border-radius: 10px;
+  background-color: var(--fifthcolor);
+}
+textarea {
+  border-radius: 10px;
+  background-color: var(--fifthcolor);
+}
+
+.submitBTN {
+  width: 150px;
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 16px;
+  color: var(--thirdcolor);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.submitBTN:hover {
+  transform: scale(1.1); /* Scale effect on hover */
+  background-color: var(--fourthcolor);
+  color: var(--secondcolor);
+}
+
+/* End Contact Info Styles */
+
+@media screen and (max-width: 1024px) {
+  .formSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .phone,
+  .Email,
+  .Location {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .submitBTN {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
