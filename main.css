@@ -54,11 +54,11 @@ nav img {
 
 .btn {
   background-color: var(--fourthcolor);
-  font-size: 18px; /* Adjust font size */
-  padding: 10px 20px; /* Adjust padding */
-  border-radius: 5px; /* Rounded corners */
-  text-decoration: none; /* Remove underline */
-  color: var(--secondcolor); /* White text color */
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--secondcolor);
   transition: transform 0.2s ease;
 }
 
@@ -120,16 +120,16 @@ nav img {
   border-radius: 8px;
 }
 .about-me p {
-  font-size: 20px; /* Adjust the font size for readability */
+  font-size: 20px;
   line-height: 1.8; /* Add spacing between lines */
   text-align: justify; /* Ensure the text is aligned on both sides */
   font-weight: 500;
 }
 
 .botn {
-  font-size: 20px; /* Adjust font size */
-  padding: 10px 20px; /* Adjust padding */
-  border-radius: 5px; /* Rounded corners */
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
   text-decoration: none;
   color: var(--thirdcolor);
 }
@@ -252,30 +252,26 @@ footer {
 }
 .project-card {
   padding: 15px;
-  background: linear-gradient(
-    135deg,
-    #f9f07a,
-    #c08b5c
-  ); /* Gradient between light and medium gray */
-  border: 1px solid #dcdcdc; /* Light border */
+  background: linear-gradient(135deg, #f9f07a, #c08b5c); /* Gradient */
+  border: 1px solid #dcdcdc;
   min-height: 14em;
   width: 15em;
   overflow: hidden;
   border-radius: 10px;
   margin: 20px;
   transition: 0.7s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .project-title {
   text-transform: uppercase;
-  color: #263159; /* Dark gray for the title */
+  color: #263159;
   font-weight: 800;
   margin-top: 10px;
 }
 
 .project-card:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .project-card:hover .project-image {
   opacity: 0.9;
