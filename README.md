@@ -63,5 +63,7 @@ This project is a personal portfolio website wrote in HTML, CSS and Bootstrap. I
   - Font Awesome
   - Bootstrap Icons
   - Remix Icon
+- **Designing**:
+  - Figma
 
 
