@@ -49,6 +49,10 @@ This project is a personal portfolio website wrote in HTML, CSS and Bootstrap. I
 - Fully responsive design optimized for both desktop and mobile devices.
 - Uses modern CSS features like flexbox and grid for layout.
 
+### *Wireframe and Mockup Link*
+
+- **Wireframe & Mockup Link**: [Here](https://www.figma.com/design/Sbjc12MzOOlgQkpGnhDxpy/Untitled?node-id=0-1&t=ryqjcxyEovFQAHvG-1)
+
 ## Technology Stack
 
 - **Frontend**:
@@ -60,7 +64,4 @@ This project is a personal portfolio website wrote in HTML, CSS and Bootstrap. I
   - Bootstrap Icons
   - Remix Icon
 
-### *Wireframe and Mockup Link*
-
-- **Wireframe & Mockup Link**: [Here](https://www.figma.com/design/Sbjc12MzOOlgQkpGnhDxpy/Untitled?node-id=0-1&t=ryqjcxyEovFQAHvG-1)
 
